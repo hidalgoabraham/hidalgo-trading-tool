@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>778</width>
+    <height>536</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Hidalgo Trading Tool - Rankings</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icono.ico</normaloff>icono.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="mainScrollArea">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>760</width>
+         <height>500</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="mainGroupBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>760</width>
+            <height>500</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>760</width>
+            <height>500</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QTableWidget" name="tbw_criterio1">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>40</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio1">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>10</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tbw_criterio2">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>40</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio2">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>10</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio3">
+           <property name="geometry">
+            <rect>
+             <x>515</x>
+             <y>10</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tbw_criterio3">
+           <property name="geometry">
+            <rect>
+             <x>515</x>
+             <y>40</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QTableWidget" name="tbw_criterio4">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>260</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio4">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>230</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tbw_criterio6">
+           <property name="geometry">
+            <rect>
+             <x>515</x>
+             <y>260</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio5">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>230</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QTableWidget" name="tbw_criterio5">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>260</y>
+             <width>231</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <column>
+            <property name="text">
+             <string>Simbolo</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Puntaje</string>
+            </property>
+           </column>
+          </widget>
+          <widget class="QLabel" name="lbl_criterio6">
+           <property name="geometry">
+            <rect>
+             <x>515</x>
+             <y>230</y>
+             <width>211</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pbtn_actualizar">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>450</y>
+             <width>75</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Actualizar</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
