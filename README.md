@@ -1,5 +1,5 @@
 ## Description
-A tool for Binance Futures-M trading. It includes a top ranking of cryptocurrencies sorted by Rise, Fall, High/Low RSI and Volatility, all of them in real-time. This tool also provide an enhanced trailing stop-loss mechanism. Finally, the user can view the total session gain on screen as well as the account balance.
+A tool for Binance Futures USD-M trading. It includes a top ranking of cryptocurrencies sorted by Rise, Fall, High/Low RSI and Volatility, all of them in real-time. This tool also provide an enhanced trailing stop-loss mechanism. Finally, the user can view the total session gain on screen as well as the account balance.
 
 ## Author
 **Abraham Hidalgo**
