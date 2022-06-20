@@ -52,7 +52,7 @@ pip install TA-Lib
 
 If you have issues installing TA-Lib via pip, please refer to the library's [main repository](https://blog.quantinsti.com/install-ta-lib-python/).  Also, [this post](https://github.com/mrjbq7/ta-lib) could help.
 
-This app is intended to run on Windows OS, but you can modify it according to your OS. In order to allow sync up the system clock to the Binance's Server, you'll need to run this script as Administrator. It's important to set up the GMT according to your location:
+This app is intended to run on Windows OS, but you can modify it according to your OS. In order to allow sync up the system clock to the Binance's Server, you'll need to run this script as Administrator. It's important to set the GMT according to your location:
 
 <br />
 
