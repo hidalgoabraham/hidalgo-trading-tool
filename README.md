@@ -22,7 +22,7 @@ Main window.
 Ranking's window.
 
 ## How to install:
-This app is intended to run on Windows OS. You can download this repository an run the Principal_HTT.py file. In order to allow sync up the system clock to the Binance's Server, you'll need to run this script as Administrator. Also, you'll need to previously install the following packages (e.g. via pip):
+You can download this repository an run the Principal_HTT.py file. You'll need to previously install the following packages (e.g. via pip):
 
 ```
 pip install pywin32
@@ -37,14 +37,21 @@ pip install unicorn-binance-websocket-api
 pip install unicorn-fy
 ```
 ```
-pip install TA-Lib
-```
-```
 pip install ta
 ```
 ```
 pip install PyQt5
 ```
+```
+pip install TA-Lib
+```
+
+If you have issues installing TA-Lib via pip, please refer to the library's [main repository](https://blog.quantinsti.com/install-ta-lib-python/).  Also, [this post](https://github.com/mrjbq7/ta-lib) could help.
+
+This app is intended to run on Windows OS, but you can modify it according to your OS. In order to allow sync up the system clock to the Binance's Server, you'll need to run this script as Administrator. It's important to set up the GMT according to your location:
+
+![App Screenshot](./important.png)
+
 
 ## Contact me
 If you have any questions or want to hire me, please write an email to ahidalgo3@uc.edu.ve or aj.hidalgo2310@gmail.com.
