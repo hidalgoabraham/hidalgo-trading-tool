@@ -21,14 +21,14 @@ IMPORTANT!
 
 Insert here the GMT (in minutes) according to your location.
 
-This script is intended to run on Windows SO.
+This script is intended to run on Windows OS.
 In order to allow sync up the system clock to the Binance's Server, 
 you need to run this script as Administrator.
 
 """
 # IMPORTANT!
 # Insert here the GMT (in minutes) according to your location
-shift = datetime.timedelta(minutes = 4*60) # GMT Venezuela: +4h = 4*60 minutes
+shift = datetime.timedelta(minutes = 4*60) # (e.g. GMT Venezuela: +4h = 4*60 minutes)
 
 
 import win32api
